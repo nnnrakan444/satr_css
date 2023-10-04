@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>مقدمة في CSS</title>
+
+        <link rel="stylesheet" href="styleHomepage.css">
+        <style>
+        nav
+        {
+        position: relative;
+        top: 0%;
+        background-color: aquamarine;
+            
+        
+        }
+            body{
+                background-image: url("css.jpg");
+
+            }
+            img{
+                height: 25%;
+                width: 25%;
+                display: block;
+                margin-top: 250px;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 10px;
+            }
+            p{
+                font-size: 48px;
+
+                font-style:initial;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 22px;
+
+            }
+            .scrolling{
+                background-color: rgb(43, 60, 132);
+
+            }
+            ul{
+                list-style-type: none;
+                
+            }
+            li{
+                
+                padding: 15px;
+                display: inline-block;
+            }
+            li a{
+                padding: 15px 16px;
+            }
+            
+            
+            button{
+                display: block;
+                margin: auto;
+                color: white;
+                background-color: rgb(82, 168, 184);
+                height: 40px;
+                width: 75px;
+                font-size: 22px;
+                border-radius: 10px;
+                box-shadow: 0 0 15px black;
+            }
+            button:hover{
+                background-color: rgb(56, 116, 127);
+            }
+        </style>
+
+    </head>
+    <body dir="rtl">
+        <nav>
+            <ul>
+                <li><a class="darkBlue"href="click">الصفحة الرئيسية</a></li>
+                <li><a href="click">من نحن</a></li>
+                <li><a href="click">تواصل معنا</a></li>
+                <li><a href="click">تفاصيل الدورة</a></li>
+            </ul>
+        </nav>
+        <img src="logoCss.jpg" alt="">
+        <p>دورة لتعلم CSS</p>
+        <button class="b">انضمام</button>
+    </body>
+</html>
